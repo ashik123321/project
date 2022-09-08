@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  border-bottom: 1px solid black;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: orange;
+}
+
+header div {
+  display: grid;
+  place-items: center;
+}
+
+header div h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+header div h2 {
+  background-color: orange;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header div p {
+  font-size: 13px;
+  color: black;
+}
+
+.main_wrapper {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.main_wrapper form {
+  margin: 30px 0;
+  border-radius: 10px;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.head_title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.input_div {
+  width: 100%;
+}
+
+.input_div div {
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.input_div div input {
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+}
+
+.input_div div p {
+  font-size: 14px;
+}
+
+.btn_holder {
+  width: 10%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.btn_holder input {
+  width: 90%;
+  margin: 0 auto;
+  height: 34px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: none;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+}
+
+.wrapper_bdy {
+  margin-top: 30px;
+  margin-bottom: 300px;
+}
+
+.wrapper_bdy table {
+  width: 100%;
+}
+
+.prod_template {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.prod_template div:nth-child(1),
+.prod_template div:nth-child(3),
+.prod_template div:nth-child(4),
+.prod_template div:nth-child(5) {
+  width: 10%;
+}
+
+.prod_template div:nth-child(2) {
+  width: 40%;
+}
+
+.prod_template div:nth-child(2) p:nth-child(2) {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.prod_template div p:nth-child(1) {
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 12;
+}
+
+.prod_template div:nth-child(6),
+.prod_template div:nth-child(7) {
+  height: 45px;
+  display: grid;
+  place-items: center;
+}
